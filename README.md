@@ -20,7 +20,7 @@
 --------------------------------------------------
 
 # Election: Voting Analyzer
-> place the budget file in csv format under the Resources folder with name _"election_data.csv"_. Csv file should have the first 3 columns as _Voter ID, County, Candidate_.
+> place the election result file in csv format under the Resources folder with name _"election_data.csv"_. Csv file should have the first 3 columns as _Voter ID, County, Candidate_.
 
 > Run python script _"**main.py**"_.
 
