@@ -6,7 +6,7 @@
 
 > The module would show the analysis results in terminal as well as creates a Text file _"financial_analysis.txt"_ under _"Analysis"_ Folder.
 
-## output format
+## Format of output
 --------------------------------------------------
 **Financial Analysis of Bank Transactions**
 
@@ -31,7 +31,7 @@ Greatest Decrease in Profits: {Month & Year} {(Lowest change $ amount)}
 
 > The module would show the analysis results in terminal as well as creates a Text file _"poll_results.txt"_ under _"Analysis"_ Folder.
 
-## output format
+## Format of output
 --------------------------------------------------
 **Election Results**
 
