@@ -16,9 +16,9 @@
 
 **Average Change**: _Average of the changes from each month_
 
-**Greatest Increase in Profits**: _Month & Year (Highest change $ amount)_
+**Greatest Increase in Profits**: _Month,Year (Highest change $ amount)_  
 
-**Greatest Decrease in Profits**: _Month & Year (Lowest change $ amount)_
+**Greatest Decrease in Profits**: _Month,Year (Lowest change $ amount)_
 
 --------------------------------------------------
 --------------------------------------------------
@@ -45,6 +45,6 @@
 ...  
 
 --------------------------------------------------
-**Winner**: _{_Winner in the elections_
+**Winner**: _Winner in the elections_
 
 --------------------------------------------------
