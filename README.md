@@ -11,9 +11,9 @@
 **Financial Analysis of Bank Transactions**
 
 --------------------------------------------------
-Total Months: {Number of months considered in the transactions}
+**Total Months**: _Number of months considered in the transactions_
 
-Total: {Total $ Amount}
+**Total**: _Total $ Amount_
 
 Average Change: {Average of the changes from each month}
 
