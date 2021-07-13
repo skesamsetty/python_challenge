@@ -1,11 +1,10 @@
-""" This object analysis the bank transaction Profit/losses.
+""" This object analyzes the bank transaction Profit/losses.
     Writes analysis information into Terminal and 
     also creates a text file
 """
 # import required modules
 import pathlib  # Allows to create path to data files
 import csv      # Allows to read and create data from csv files
-from decimal import *  # Allows to round the decimal values
 
 header_line=f"    Financial Analysis of Bank Transactions"
 dash_line=f"--------------------------------------------------"
@@ -25,13 +24,13 @@ with open(budget_file_path, newline='') as budget_file:
     change = 0
     change_total = 0
     average_change = 0.0
-    getcontext().prec = 6
     max_month = ''
     min_month = ''
 
     # Read each row of data after the header
     for row in budget_reader:
 
+        # Loop through each Bank transaction row to check tha count
         row_count=row_count + 1
         transaction_total=transaction_total + int(row[1])
         
@@ -62,12 +61,12 @@ with open(budget_file_path, newline='') as budget_file:
 
     # Since the number of changes are going to be 1 less than the total records,
     # for average change calculation, I am subtracting 1 from row count.
-    average_change=Decimal(change_total) / Decimal(row_count - 1)
+    average_change=round((change_total / (row_count - 1)),2)
 
 # Calculate required KPIs
 total_months_line=f"Total Months: {row_count}"
 transaction_total_line=f"Total: ${transaction_total}"
-average_change_line=f"Average Change: ${average_change}"
+average_change_line=f"Average Change: ${average_change:.2f}"
 max_increase_line=f"Greatest Increase in Profits: {max_month} (${max_change})"
 min_increase_line=f"Greatest Decrease in Profits: {min_month} (${min_change})"
 
@@ -76,9 +75,9 @@ lines=[total_months_line, transaction_total_line, average_change_line,
         max_increase_line, min_increase_line]
 
 # Write to file and print to terminal together
-analysis_file_path = pathlib.Path('Analysis/FinancialAnalysis.txt')
+output_file_path = pathlib.Path('Analysis/FinancialAnalysis.txt')
 
-with open(analysis_file_path, 'w') as export_file:
+with open(output_file_path, 'w') as export_file:
 
     export_file.write(dash_line + "\n" + header_line + "\n" + dash_line + "\n")
     print(dash_line + "\n" + header_line + "\n" + dash_line)
@@ -86,5 +85,6 @@ with open(analysis_file_path, 'w') as export_file:
     for line in lines:
         export_file.write(line + "\n")
         print(line)
+        
     export_file.write(dash_line)
     print(dash_line)
