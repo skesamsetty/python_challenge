@@ -36,7 +36,6 @@ with open(poll_data_file_path, newline='') as poll_data_file:
         # If candidate is not already part of candidate list, add the candidate and
         #   initialize the corresponding vote count to zero.
         #   Vote count to zero because its the first time, candidate is appearing in the poll 
-
         if not candidates_list.__contains__(row[2]):
             candidates_list.append(row[2])
             vote_count_list.append(0)

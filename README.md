@@ -1,2 +1,54 @@
-# python_challenge
-Analyze Financial records of a company and Election results using Python
+
+# Bank Budget: Profit/Loss anlayzer
+> Place the budget file in csv format under the Resources folder with name _"budget_data.csv"_. Csv file should have the first 2 columns as _Date and Profit/Losses_.
+
+> Run python script "main.py".
+
+> The module would show the analysis results in terminal as well as creates a Text file _"financial_analysis.txt"_ under _"Analysis"_ Folder.
+
+## output format
+--------------------------------------------------
+**Financial Analysis of Bank Transactions**
+
+--------------------------------------------------
+Total Months: {Number of months considered in the transactions}
+
+Total: {Total $ Amount}
+
+Average Change: {Average of the changes from each month}
+
+Greatest Increase in Profits: {Month & Year} {(Highest change $ amount)}
+
+Greatest Decrease in Profits: {Month & Year} {(Lowest change $ amount)}
+
+--------------------------------------------------
+--------------------------------------------------
+
+# Election: Voting Analyzer
+> place the budget file in csv format under the Resources folder with name _"election_data.csv"_. Csv file should have the first 3 columns as _Voter ID, County, Candidate_.
+
+> Run python script _"main.py"_.
+
+> The module would show the analysis results in terminal as well as creates a Text file _"poll_results.txt"_ under _"Analysis"_ Folder.
+
+## output format
+--------------------------------------------------
+**Election Results**
+
+--------------------------------------------------
+
+Total Votes: {Total number of votes casted in the election}
+
+--------------------------------------------------
+{Name of the candidate 1}: {Percentage of Votes won} {(Number of Votes won)}
+
+{Name of the candidate 2}: {Percentage of Votes won} {(Number of Votes won)}
+
+{Name of the candidate 3}: {Percentage of Votes won} {(Number of Votes won)}
+
+...
+
+--------------------------------------------------
+Winner: {Winner in the elections}
+
+--------------------------------------------------

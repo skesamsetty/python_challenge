@@ -75,7 +75,7 @@ lines=[total_months_line, transaction_total_line, average_change_line,
         max_increase_line, min_increase_line]
 
 # Write to file and print to terminal together
-output_file_path = pathlib.Path('Analysis/FinancialAnalysis.txt')
+output_file_path = pathlib.Path('Analysis/financial_analysis.txt')
 
 with open(output_file_path, 'w') as export_file:
 
