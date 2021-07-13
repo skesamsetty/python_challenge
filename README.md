@@ -10,11 +10,16 @@
 --------------------------------------------------
 **Financial Analysis of Bank Transactions**  
 --------------------------------------------------
-**Total Months**: _Number of months considered in the transactions_  
-**Total**: _Total $ Amount_  
-**Average Change**: _Average of the changes from each month_  
-**Greatest Increase in Profits**: _Month & Year (Highest change $ amount)_  
-**Greatest Decrease in Profits**: _Month & Year (Lowest change $ amount)_  
+**Total Months**: _Number of months considered in the transactions_
+
+**Total**: _Total $ Amount_
+
+**Average Change**: _Average of the changes from each month_
+
+**Greatest Increase in Profits**: _Month & Year (Highest change $ amount)_
+
+**Greatest Decrease in Profits**: _Month & Year (Lowest change $ amount)_
+
 --------------------------------------------------
 --------------------------------------------------
 
@@ -38,7 +43,8 @@
 **Name of the candidate 2**: _Percentage of Votes won (Number of Votes won)_  
 **Name of the candidate 3**: _Percentage of Votes won (Number of Votes won)_  
 ...  
+
 --------------------------------------------------
-Winner: {Winner in the elections}
+**Winner**: _{_Winner in the elections_
 
 --------------------------------------------------
