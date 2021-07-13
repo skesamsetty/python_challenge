@@ -2,24 +2,23 @@
 # Bank Budget: Profit/Loss anlayzer
 > Place the budget file in csv format under the Resources folder with name _"budget_data.csv"_. Csv file should have the first 2 columns as _Date and Profit/Losses_.
 
-> Run python script "main.py".
+> Run python script _"**main.py**"_.
 
 > The module would show the analysis results in terminal as well as creates a Text file _"financial_analysis.txt"_ under _"Analysis"_ Folder.
 
-## output format
+## Format of output
 --------------------------------------------------
-**Financial Analysis of Bank Transactions**
-
+**Financial Analysis of Bank Transactions**  
 --------------------------------------------------
-Total Months: {Number of months considered in the transactions}
+**Total Months**: _Number of months considered in the transactions_
 
-Total: {Total $ Amount}
+**Total**: _Total $ Amount_
 
-Average Change: {Average of the changes from each month}
+**Average Change**: _Average of the changes from each month_
 
-Greatest Increase in Profits: {Month & Year} {(Highest change $ amount)}
+**Greatest Increase in Profits**: _Month & Year (Highest change $ amount)_
 
-Greatest Decrease in Profits: {Month & Year} {(Lowest change $ amount)}
+**Greatest Decrease in Profits**: _Month & Year (Lowest change $ amount)_
 
 --------------------------------------------------
 --------------------------------------------------
@@ -27,28 +26,25 @@ Greatest Decrease in Profits: {Month & Year} {(Lowest change $ amount)}
 # Election: Voting Analyzer
 > place the budget file in csv format under the Resources folder with name _"election_data.csv"_. Csv file should have the first 3 columns as _Voter ID, County, Candidate_.
 
-> Run python script _"main.py"_.
+> Run python script _"**main.py**"_.
 
 > The module would show the analysis results in terminal as well as creates a Text file _"poll_results.txt"_ under _"Analysis"_ Folder.
 
-## output format
+## Format of output
 --------------------------------------------------
 **Election Results**
 
 --------------------------------------------------
 
-Total Votes: {Total number of votes casted in the election}
+**Total Votes**: _Total number of votes casted in the election_
 
 --------------------------------------------------
-{Name of the candidate 1}: {Percentage of Votes won} {(Number of Votes won)}
-
-{Name of the candidate 2}: {Percentage of Votes won} {(Number of Votes won)}
-
-{Name of the candidate 3}: {Percentage of Votes won} {(Number of Votes won)}
-
-...
+**Name of the candidate 1**: _Percentage of Votes won (Number of Votes won)_  
+**Name of the candidate 2**: _Percentage of Votes won (Number of Votes won)_  
+**Name of the candidate 3**: _Percentage of Votes won (Number of Votes won)_  
+...  
 
 --------------------------------------------------
-Winner: {Winner in the elections}
+**Winner**: _{_Winner in the elections_
 
 --------------------------------------------------
