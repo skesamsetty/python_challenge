@@ -15,11 +15,11 @@
 
 **Total**: _Total $ Amount_
 
-Average Change: {Average of the changes from each month}
+**Average Change**: _Average of the changes from each month_
 
-Greatest Increase in Profits: {Month & Year} {(Highest change $ amount)}
+**Greatest Increase in Profits**: _Month & Year (Highest change $ amount)_
 
-Greatest Decrease in Profits: {Month & Year} {(Lowest change $ amount)}
+**Greatest Decrease in Profits**: _Month & Year (Lowest change $ amount)_
 
 --------------------------------------------------
 --------------------------------------------------
