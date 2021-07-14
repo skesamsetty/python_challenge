@@ -11,10 +11,10 @@
 
 --------------------------------------------------
 **Total Months**: _Number of months considered in the transactions_  
-**Total**: _Total dollar amount_  
+**Total**: _Total \$ amount_  
 **Average Change**: _Average of the changes from each month_  
-**Greatest Increase in Profits**: _Month,Year (Highest change in dollar amount)_  
-**Greatest Decrease in Profits**: _Month,Year (Lowest change in dollar amount)_
+**Greatest Increase in Profits**: _Month,Year (Highest change in \$ amount)_  
+**Greatest Decrease in Profits**: _Month,Year (Lowest change in \$ amount)_
 
 --------------------------------------------------
 --------------------------------------------------
